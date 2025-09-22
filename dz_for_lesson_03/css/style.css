@@ -1,0 +1,30 @@
+@import url("reset.css");
+*{
+    color:gray;
+}
+
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: orange;
+}
+span{
+    color:black
+}
+a{
+    color: green;
+}
+
+main > p{
+    color:blueviolet
+}
+
+.list-in-period li{
+    color: brown;
+}
+
+
