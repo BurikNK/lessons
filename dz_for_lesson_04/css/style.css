@@ -13,7 +13,7 @@ body {
     font-family: "Fuzzy Bubbles", serif;
     font-size: 16px;
     line-height: 1.8;
-    font-size: 400;
+    font-size: 18px;
 }
 
 header,
@@ -97,3 +97,4 @@ p{
     font-size: 16px;
     text-decoration: underline;
 }
+
