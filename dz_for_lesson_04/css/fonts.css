@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Bosa-Nova";
+    src: url("../fonts/Bosa-Nova-GdStr-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "VSmyatku";
+    src: url("../fonts/VSmyatku-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
