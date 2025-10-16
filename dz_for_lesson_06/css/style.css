@@ -1,0 +1,221 @@
+/* обнуляємо стилі */
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open%20Sans:wght@700&display=swap");
+@import url("fonts.css");
+
+body {
+	/* background-color: #918c8c; */
+	background-attachment: fixed;
+	background: #eeaeca;
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.wrapper {
+}
+
+header li,
+footer li {
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.25;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+header ul {
+	text-align: right;
+}
+
+footer ul {
+	text-align: left;
+}
+
+/* макет - 1 */
+.section-1 {
+	width: 1920px;
+	height: 612px;
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	/* background-size: contain; */
+	background-size: cover;
+	/* background-size: 1920px 612px;  */
+
+	margin: 0px auto;
+	margin-bottom: 50px;
+	padding-top: 114px;
+}
+
+.welcome {
+	font-family: "Lato", serif;
+	text-transform: uppercase;
+	color: #2f302c;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 140%; /* 28/20 */
+	margin-left: 1013px;
+	margin-bottom: 20px;
+}
+
+.title{
+	width: 518px;
+	font-family: "Montserrat", serif;
+	text-transform: uppercase;
+	margin-left: 1008px;
+	margin-bottom: 16px;
+	font-size: 96px;
+	letter-spacing: 0px;
+	line-height: 104.166667%; /* 100/96 */
+	color: #2F302C;
+	font-weight: 700;
+}
+.title span{
+	font-weight: 800;
+}
+
+.title-p1{
+	font-weight: 800;
+}
+.title-p2{
+	font-weight: 700;
+}
+
+.line {
+	margin-left: 1018px;
+	width: 308px;
+	border-top: 1px solid #2f302c;
+	margin-bottom: 36px;
+}
+
+.title-sub{
+	margin-left: 1013px;
+	text-transform: uppercase;
+	font-family: "Lato", serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 140%; /* 28/20 */
+	color: #2F302C;
+	margin-bottom: 20px;
+}
+
+.subscribe{
+	width: 374px;
+	margin-left: 1013px;
+	font-family: "Lato", serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 125%; /* 20/16 */
+	color: #7E7F7C;
+}
+
+/* макет - 2 */
+.section-2 {
+	margin: 0px auto;
+	width: 351px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 40px;
+}
+
+.title-plan {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%; /* 24/16 */
+	padding-top: 40px;
+
+	margin-bottom: 17px;
+	color: #252b42;
+}
+.plan-price h2 {
+	display: inline-block;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 142.5%; /* 57/40 */
+	margin-right: 16px;
+	color: #252b42;
+}
+.plan-price {
+	margin-bottom: 17px;
+}
+.price-title {
+	display: inline-block;
+}
+.price-title h5 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 150%; /* 24/16 */
+	color: #252b42;
+}
+
+.price-title p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 133.333333%; /* 16/12 */
+	color: #737373;
+}
+
+.blue-line {
+	border-top: 4px solid #000;
+	width: 47px;
+	border-color: #31a0fe;
+	margin-bottom: 17px;
+}
+
+.section-2-desc {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 133.333333%; /* 16/12 */
+	color: #737373;
+	margin-bottom: 17px;
+}
+
+.list {
+	margin-bottom: 17px;
+}
+.list h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 171.428571%; /* 24/14 */
+	letter-spacing: 0.5px;
+	color: #252b42;
+}
+
+.items li {
+	margin-bottom: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 42px;
+}
+
+.item-green {
+	background: url("../img/check-green.svg") 0 0 no-repeat;
+	min-height: 32px;
+	/* margin-bottom: 10px; */
+}
+
+.item-grey {
+	background: url("../img/check-gray.svg") 0 0 no-repeat;
+	min-height: 32px;
+}
+
+.btn {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 200%; /* 28/14 */
+	display: block;
+	width: 271px;
+	border: 1px solid #000;
+	border-radius: 40px;
+	color: #252b42;
+	text-align: center;
+	/* margin: 0px 40px; */
+}

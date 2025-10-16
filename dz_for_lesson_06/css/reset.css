@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    box-sizing: border-box; 
+}
+
+a{
+    text-decoration: none; 
+    color: inherit; 
+    display: inline-block;
+}
+
+li{
+    list-style: none; 
+}
+
+img{
+    max-width: 100%; 
+    vertical-align: middle;  
+}
+
+html,
+body{
+    line-height: 1; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+*::before,
+*::after{
+    display: inline-block; 
+}
