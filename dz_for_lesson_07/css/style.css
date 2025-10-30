@@ -1,0 +1,410 @@
+/* обнуляємо стилі */
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat%20Underline:wght@600;700;900&display=swap");
+body {
+	padding: 10px;
+	background: #45d93b;
+	background: radial-gradient(circle, rgba(69, 217, 59, 1) 0%, rgba(0, 225, 255, 0.76) 100%);
+}
+
+.wrapper {
+	padding-bottom: 10px;
+}
+.conteiner {
+}
+.navigation {
+}
+.list-of-navigation {
+}
+
+h1 {
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 1.7;
+	color: #252b42;
+	margin-bottom: 20px;
+}
+h1,h2:hover{
+	color: #000;
+}
+h2{
+		text-align: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 1.7;
+	color: #252b42;
+	margin-bottom: 20px;
+}
+
+.section-1 {
+	background: linear-gradient(to top, #fefcea, #00ffff);
+	margin-bottom: 20px;
+}
+.game-zone {
+	width: 1100px;
+	height: 770px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.top-zone {
+	padding-top: 30px;
+	height: 10%;
+	background: url("../img/bereg.webp") 0 0 repeat-x;
+}
+
+.main-zone {
+	height: 80%;
+	background: url("../img/voda.webp") 0 0 repeat-x;
+}
+.bottom-zone {
+	height: 10%;
+	background: url("../img/bereg.webp") 0 0 repeat-x;
+}
+
+/* Блоки */
+.block-start {
+	margin-top: -80px;
+	display: inline-block;
+	background: url("../img/start.webp") 0 0 no-repeat;
+	background-size: 100%;
+	height: 46px;
+	width: 115px;
+}
+
+.block-1 {
+	width: 258px;
+	height: 24px;
+	margin-top: -10px;
+	margin-left: 20px;
+	background: url("/dz_for_lesson_07/img/brevno-x.webp") 0 0 repeat;
+	background-size: contain;
+	/* border: 1px solid #e211bf; */
+}
+
+.block-2 {
+	width: 23px;
+	height: 86px;
+	margin-left: 260px;
+	margin-top: -20px;
+	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+}
+.block-3 {
+	width: 86px;
+	height: 24px;
+	margin-left: 190px;
+	margin-top: -23px;
+	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+}
+.block-4 {
+	width: 23px;
+	height: 86px;
+	margin-left: 190px;
+	margin-top: -5px;
+	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+}
+.block-5 {
+	width: 23px;
+	height: 172px;
+	margin-left: 190px;
+	margin-top: -5px;
+	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+}
+
+.block-6 {
+	width: 23px;
+	height: 86px;
+	margin-left: 190px;
+	margin-top: -5px;
+	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+}
+
+.block-7 {
+	width: 172px;
+	height: 24px;
+	margin-left: 190px;
+	margin-top: -23px;
+	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+}
+
+.block-8 {
+	width: 23px;
+	height: 86px;
+	margin-left: 340px;
+	margin-top: -100px;
+	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+}
+
+.block-9 {
+	width: 258px;
+	height: 24px;
+	margin-left: 340px;
+	margin-top: -100px;
+	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+}
+
+.block-10 {
+	width: 86px;
+	height: 24px;
+	margin-left: 590px;
+	margin-top: -23px;
+	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+}
+
+.block-11 {
+	width: 23px;
+	height: 172px;
+	margin-left: 660px;
+	margin-top: -10px;
+	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+}
+
+.block-12 {
+	width: 258px;
+	height: 24px;
+	margin-left: 660px;
+	margin-top: -20px;
+	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+}
+
+.block-13 {
+	width: 23px;
+	height: 86px;
+	margin-left: 900px;
+	margin-top: -10px;
+	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+}
+
+.block-14 {
+	width: 172px;
+	height: 24px;
+	margin-left: 900px;
+	margin-top: -23px;
+	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+}
+
+.block-exit {
+	display: inline-block;
+	background-image: url("/dz_for_lesson_07/img/exit.webp");
+	width: 112px;
+	height: 43px;
+	background-size: contain;
+	background-position: right bottom;
+	margin-left: 980px;
+}
+/* скрити все, окрім старту та фынішу */
+[class*="block-"]:not(.block-start, .block-exit) {
+	visibility: hidden;
+}
+/* hover-и */
+.block-start:hover {
+	background-image: url("/dz_for_lesson_07/img/wait.webp");
+}
+
+.block-start:hover + .block-1 {
+	visibility: visible;
+	/* opacity: 1; */
+}
+
+.block-1:hover {
+	visibility: visible;
+}
+
+.block-1:hover + .block-2 {
+	visibility: visible;
+}
+
+.block-2:hover {
+	visibility: visible;
+}
+
+.block-2:hover + .block-3 {
+	visibility: visible;
+}
+
+.block-3:hover {
+	visibility: visible;
+}
+
+.block-3:hover + .block-4 {
+	visibility: visible;
+}
+
+.block-4:hover {
+	visibility: visible;
+}
+
+.block-4:hover + .block-5 {
+	visibility: visible;
+}
+
+.block-5:hover {
+	visibility: visible;
+}
+
+.block-5:hover + .block-6 {
+	visibility: visible;
+}
+
+.block-6:hover {
+	visibility: visible;
+}
+
+.block-6:hover + .block-7 {
+	visibility: visible;
+}
+
+.block-7:hover {
+	visibility: visible;
+}
+
+.block-7:hover + .block-8 {
+	visibility: visible;
+}
+
+.block-8:hover {
+	visibility: visible;
+}
+.block-8:hover + .block-9 {
+	visibility: visible;
+}
+
+.block-9:hover {
+	visibility: visible;
+}
+
+.block-9:hover + .block-10 {
+	visibility: visible;
+}
+
+.block-10:hover {
+	visibility: visible;
+}
+.block-10:hover + .block-11 {
+	visibility: visible;
+}
+
+.block-11:hover {
+	visibility: visible;
+}
+
+.block-11:hover + .block-12 {
+	visibility: visible;
+}
+
+.block-12:hover {
+	visibility: visible;
+}
+
+.block-12:hover + .block-13 {
+	visibility: visible;
+}
+
+.block-13:hover {
+	visibility: visible;
+}
+
+.block-13:hover + .block-14 {
+	visibility: visible;
+}
+
+.block-14:hover {
+	visibility: visible;
+}
+
+.block-14:hover + .block-exit {
+	visibility: visible;
+}
+
+.block-exit:hover {
+	background-color: blue;
+	visibility: visible;
+}
+
+.section-2 {
+}
+.price {
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 315px;
+	margin: 0 auto;
+	max-width: 351px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #252b42;
+	margin-bottom: 15px;
+}
+.price-list {
+	padding: 0 40px;
+}
+.price-item:not(:last-child) {
+	margin-bottom: 15px;
+}
+.price-item {
+	/* display: inline; */
+	padding: 4px 0 4px 0px;
+}
+.price-item::before {
+	content: "";
+	width: 32px;
+	height: 32px;
+	background: url("/dz_for_lesson_07/img/Check.svg") center / 32px 32px no-repeat;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.price-item:nth-of-type(4)::before,
+.price-item:nth-of-type(5)::before {
+	content: "";
+	width: 32px;
+	height: 32px;
+	background: url("/dz_for_lesson_07/img/Check-grey.svg") center / 32px 32px no-repeat;
+}
+
+.price-item:hover{
+	color: #45d93b;
+}
+
+header li,
+footer li {
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.25;
+	display: inline-block;
+	margin: 0 20px;
+}
+header {
+	margin-bottom: 40px;
+}
+header ul {
+	text-align: right;
+}
+
+footer ul {
+	text-align: left;
+}
+
+header li::after,
+footer li::after {
+	content: "";
+	height: 1px;
+	display: block;
+	background-color: #000;
+	width: 0%;
+	transition: width 0.8s;
+	margin-top: 5px;
+}
+
+header li:hover::after,
+footer li:hover::after {
+	width: 100%;
+}
+
+header li:hover,
+footer li:hover {
+	text-shadow: 3px 3px 10px #000;
+}
