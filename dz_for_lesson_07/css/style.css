@@ -85,7 +85,7 @@ h2{
 	height: 24px;
 	margin-top: -10px;
 	margin-left: 20px;
-	background: url("/dz_for_lesson_07/img/brevno-x.webp") 0 0 repeat;
+	background: url("../img/brevno-x.webp") 0 0 repeat;
 	background-size: contain;
 	/* border: 1px solid #e211bf; */
 }
@@ -95,28 +95,28 @@ h2{
 	height: 86px;
 	margin-left: 260px;
 	margin-top: -20px;
-	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+	background: url("../img/brevno-y.webp");
 }
 .block-3 {
 	width: 86px;
 	height: 24px;
 	margin-left: 190px;
 	margin-top: -23px;
-	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+	background: url("../img/brevno-x.webp");
 }
 .block-4 {
 	width: 23px;
 	height: 86px;
 	margin-left: 190px;
 	margin-top: -5px;
-	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+	background: url("../img/brevno-y.webp");
 }
 .block-5 {
 	width: 23px;
 	height: 172px;
 	margin-left: 190px;
 	margin-top: -5px;
-	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+	background: url("../img/brevno-y.webp");
 }
 
 .block-6 {
@@ -124,7 +124,7 @@ h2{
 	height: 86px;
 	margin-left: 190px;
 	margin-top: -5px;
-	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+	background: url("../img/brevno-y.webp");
 }
 
 .block-7 {
@@ -132,7 +132,7 @@ h2{
 	height: 24px;
 	margin-left: 190px;
 	margin-top: -23px;
-	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+	background: url("../img/brevno-x.webp");
 }
 
 .block-8 {
@@ -140,7 +140,7 @@ h2{
 	height: 86px;
 	margin-left: 340px;
 	margin-top: -100px;
-	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+	background: url("../img/brevno-y.webp");
 }
 
 .block-9 {
@@ -148,7 +148,7 @@ h2{
 	height: 24px;
 	margin-left: 340px;
 	margin-top: -100px;
-	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+	background: url("../img/brevno-x.webp");
 }
 
 .block-10 {
@@ -156,7 +156,7 @@ h2{
 	height: 24px;
 	margin-left: 590px;
 	margin-top: -23px;
-	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+	background: url("../img/brevno-x.webp");
 }
 
 .block-11 {
@@ -164,7 +164,7 @@ h2{
 	height: 172px;
 	margin-left: 660px;
 	margin-top: -10px;
-	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+	background: url("../img/brevno-y.webp");
 }
 
 .block-12 {
@@ -172,7 +172,7 @@ h2{
 	height: 24px;
 	margin-left: 660px;
 	margin-top: -20px;
-	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+	background: url("../img/brevno-x.webp");
 }
 
 .block-13 {
@@ -180,7 +180,7 @@ h2{
 	height: 86px;
 	margin-left: 900px;
 	margin-top: -10px;
-	background: url("/dz_for_lesson_07/img/brevno-y.webp");
+	background: url("../img/brevno-y.webp");
 }
 
 .block-14 {
@@ -188,12 +188,12 @@ h2{
 	height: 24px;
 	margin-left: 900px;
 	margin-top: -23px;
-	background: url("/dz_for_lesson_07/img/brevno-x.webp");
+	background: url("../img/brevno-x.webp");
 }
 
 .block-exit {
 	display: inline-block;
-	background-image: url("/dz_for_lesson_07/img/exit.webp");
+	background-image: url("../img/exit.webp");
 	width: 112px;
 	height: 43px;
 	background-size: contain;
@@ -206,7 +206,7 @@ h2{
 }
 /* hover-и */
 .block-start:hover {
-	background-image: url("/dz_for_lesson_07/img/wait.webp");
+	background-image: url("../img/wait.webp");
 }
 
 .block-start:hover + .block-1 {
@@ -358,7 +358,7 @@ h2{
 	content: "";
 	width: 32px;
 	height: 32px;
-	background: url("/dz_for_lesson_07/img/Check.svg") center / 32px 32px no-repeat;
+	background: url("../img/Check.svg") center / 32px 32px no-repeat;
 	vertical-align: middle;
 	margin-right: 10px;
 }
@@ -367,7 +367,7 @@ h2{
 	content: "";
 	width: 32px;
 	height: 32px;
-	background: url("/dz_for_lesson_07/img/Check-grey.svg") center / 32px 32px no-repeat;
+	background: url("../img/Check-grey.svg") center / 32px 32px no-repeat;
 }
 
 .price-item:hover{
