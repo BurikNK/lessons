@@ -10,6 +10,7 @@ body {
 .wrapper {
 	padding-bottom: 10px;
 }
+
 .conteiner {
 }
 .navigation {
@@ -26,11 +27,16 @@ h1 {
 	color: #252b42;
 	margin-bottom: 20px;
 }
-h1,h2:hover{
-	color: #000;
+h1 span:hover{
+	color: #0000003d;
+
+}
+h2 span:hover{
+	color: #0000003d;
+
 }
 h2{
-		text-align: left;
+	text-align: center;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	font-size: 34px;
